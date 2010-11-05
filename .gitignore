@@ -3,3 +3,4 @@
 *.iws
 *.ipr
 /target
+/new-examples
