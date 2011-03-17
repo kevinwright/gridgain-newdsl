@@ -16,7 +16,7 @@ class Examples(testString:String)(implicit grid : GridProjection) {
   def count(msg: String) =
     (msg split " ") mapJobs { word =>
       val length = word.length
-      println("length of " + word + " is " + length)
+      println("length of [" + word + "] is " + length)
       length
     } spreadReduce {_.reduceLeft(_+_)}
 }

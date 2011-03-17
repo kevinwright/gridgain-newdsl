@@ -16,7 +16,7 @@ object Main {
     }
 
     new Examples("this is a test string").runAll
-    new Examples("this is a test string")(remoteProjection).runAll
+    //new Examples("this is a test string")(remoteProjection).runAll
   }
 
 
